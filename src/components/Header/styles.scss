@@ -1,0 +1,30 @@
+.header {
+  background-color: #121214;
+  padding: 2.5rem 0 7.5rem;
+
+  .container {
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .btn {
+    height: 50px;
+    border: 0;
+    background-color: #00875F;
+    color: #fff;
+    font-weight: 700;
+    padding: 0 1.25rem;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #00B37E;
+    }
+  }
+}
