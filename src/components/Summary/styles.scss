@@ -6,7 +6,32 @@
     padding: 0 1.5rem;
     
     display: flex;
+    gap: 2rem;
     align-items: center;
     justify-content: space-around;
+  }
+
+  &__box {
+    background-color: #323238;
+    border-radius: 6px;
+    padding: 2rem;
+    flex: 1;
+
+    &:last-child {
+      background-color: #015F43;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #C4C4CC;
+    }
+
+    strong {
+      display: block;
+      margin-top: 1rem;
+      font-size: 2rem;
+    }
   }
 }

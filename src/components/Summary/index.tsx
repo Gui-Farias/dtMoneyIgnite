@@ -26,7 +26,7 @@ export function Summary() {
         <div className="summary__box">
           <header>
             <span>Total</span>
-            <CurrencyDollar size={32} color='#00b37e' />
+            <CurrencyDollar size={32} color='#FFFFFF' />
           </header>
           <strong>
             R$ 16.141,00
